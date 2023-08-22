@@ -1,7 +1,7 @@
-import SplashScreen from "./src/Screens/Splash";
+import Login from "./src/Screens/Login";
 
 export default function App() {
   return (
-    <SplashScreen />
+    <Login />
   );
 }
