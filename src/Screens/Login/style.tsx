@@ -8,6 +8,18 @@ export const style = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#820AD1',
     },
+    content: {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+    },
+    contentPassword: {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+    },
     image: {
         width: 128,
         height: 128,
@@ -25,11 +37,18 @@ export const style = StyleSheet.create({
         marginBottom: 10,
     },
     buttonLogin: {
-        width: 200,
+        width: '70%',
         height: 40,
         backgroundColor: 'white',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 3,
+    },
+    forgotPassword: {
+        color: 'white',
+        fontSize: 12,
+        fontStyle: 'italic',
+        marginBottom: 5,
+        fontWeight: "bold",
     },
 })
