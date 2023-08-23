@@ -1,7 +1,7 @@
-import Login from "./src/Screens/Login";
+import Routes from "./src/Routes";
 
 export default function App() {
   return (
-    <Login />
+    <Routes />
   );
 }
