@@ -25,7 +25,7 @@ export default function Login() {
                 </TouchableOpacity>
             </View>
 
-            <Pressable>
+            <Pressable onPress={() => alert("Forgot Password")}>
                 <Text style={style.forgotPassword}>
                     Forgot Password?
                 </Text>
@@ -34,6 +34,12 @@ export default function Login() {
             <Pressable style={style.buttonLogin} onPress={() => alert("Login")}>
                 <Text>
                     Login
+                </Text>
+            </Pressable>
+
+            <Pressable onPress={() => alert("Create Account")}>
+                <Text style={style.createAccount}>
+                    Create New Account
                 </Text>
             </Pressable>
         </View>
