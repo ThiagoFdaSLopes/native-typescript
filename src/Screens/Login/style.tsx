@@ -43,12 +43,19 @@ export const style = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 3,
+        marginTop: 5,
     },
     forgotPassword: {
         color: 'white',
         fontSize: 12,
         fontStyle: 'italic',
         marginBottom: 5,
+        fontWeight: "bold",
+    },
+    createAccount: {
+        color: 'white',
+        fontSize: 14,
+        marginTop: 12,
         fontWeight: "bold",
     },
 })
