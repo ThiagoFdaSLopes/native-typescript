@@ -48,6 +48,12 @@ const Register = () => {
                     <Text>Create Account</Text>
                 }
             </Pressable>
+
+            <Pressable onPress={() => navigation.navigate("Login" as never)}>
+                <Text style={style.pText}>
+                    I have account! <Text style={style.personText}>Click Here!</Text>
+                </Text>
+            </Pressable>
         </View>
     )
 }
