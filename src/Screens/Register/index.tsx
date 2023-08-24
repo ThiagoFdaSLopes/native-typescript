@@ -12,6 +12,7 @@ const Register = () => {
     return (
         <View style={style.main}>
             <Image source={require('../../Images/logo.png')} style={style.image} />
+            <Text style={style.title}>Register Account</Text>
             <View style={style.content}>
                 <TextInput style={style.textInput} placeholder='Name' autoComplete='name' />
             </View>
