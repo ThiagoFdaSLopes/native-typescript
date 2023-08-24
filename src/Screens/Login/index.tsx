@@ -1,10 +1,12 @@
 import { View, Text, Image, TextInput, TouchableOpacity, Pressable } from 'react-native'
 import React, { useState } from 'react'
 import { style } from './style'
+import { useNavigation } from '@react-navigation/native';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Login() {
+    const navigation = useNavigation();
     const [show, setShow] = useState(true);
     return (
         <View style={style.main}>
@@ -37,7 +39,7 @@ export default function Login() {
                 </Text>
             </Pressable>
 
-            <Pressable onPress={() => alert("Create Account")}>
+            <Pressable onPress={() => navigation.navigate("Register" as never)}>
                 <Text style={style.createAccount}>
                     Create New Account
                 </Text>
