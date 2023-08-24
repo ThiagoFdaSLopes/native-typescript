@@ -46,16 +46,21 @@ export const style = StyleSheet.create({
         marginTop: 5,
     },
     forgotPassword: {
-        color: 'white',
+        color: 'grey',
         fontSize: 12,
         fontStyle: 'italic',
         marginBottom: 5,
         fontWeight: "bold",
     },
     createAccount: {
-        color: 'white',
-        fontSize: 14,
+        color: 'grey',
+        fontSize: 12,
         marginTop: 12,
         fontWeight: "bold",
     },
+    personText: {
+        color: 'white',
+        fontSize: 12,
+        fontWeight: "bold",
+    }
 })
