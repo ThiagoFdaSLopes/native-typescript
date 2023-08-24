@@ -29,7 +29,7 @@ export default function Login() {
 
             <Pressable onPress={() => alert("Forgot Password")}>
                 <Text style={style.forgotPassword}>
-                    Forgot Password?
+                    Forgot Password? <Text style={style.personText}>Click Here!</Text>
                 </Text>
             </Pressable>
 
@@ -41,7 +41,7 @@ export default function Login() {
 
             <Pressable onPress={() => navigation.navigate("Register" as never)}>
                 <Text style={style.createAccount}>
-                    Create New Account
+                    You don't have account? <Text style={style.personText}>Click Here!</Text>
                 </Text>
             </Pressable>
         </View>
