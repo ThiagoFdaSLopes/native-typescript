@@ -50,5 +50,17 @@ export const style = StyleSheet.create({
         color: 'white',
         fontWeight: 'bold',
         margin: 10,
+    },
+    pText: {
+        margin: 10,
+        color: 'grey',
+        fontSize: 12,
+        fontWeight: "bold",
+    },
+    personText: {
+        margin: 10,
+        color: 'white',
+        fontSize: 12,
+        fontWeight: "bold",
     }
 })
