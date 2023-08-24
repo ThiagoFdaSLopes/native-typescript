@@ -45,4 +45,10 @@ export const style = StyleSheet.create({
         marginBottom: 10,
         backgroundColor: 'white'
     },
+    title: {
+        fontSize: 24,
+        color: 'white',
+        fontWeight: 'bold',
+        margin: 10,
+    }
 })
