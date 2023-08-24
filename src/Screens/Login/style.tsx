@@ -46,14 +46,14 @@ export const style = StyleSheet.create({
         marginTop: 5,
     },
     forgotPassword: {
-        color: 'grey',
+        color: '#F6F6F6',
         fontSize: 12,
         fontStyle: 'italic',
         marginBottom: 5,
         fontWeight: "bold",
     },
     createAccount: {
-        color: 'grey',
+        color: '#F6F6F6',
         fontSize: 12,
         marginTop: 12,
         fontWeight: "bold",
@@ -61,6 +61,6 @@ export const style = StyleSheet.create({
     personText: {
         color: 'white',
         fontSize: 12,
-        fontWeight: "bold",
+        fontWeight: "700",
     }
 })

@@ -16,13 +16,13 @@ export default function Login() {
                 <TextInput style={style.textInput} placeholder='Email' autoComplete='email' />
             </View>
             <View style={style.contentPassword}>
-                <TextInput style={style.textInput} placeholder='Password' autoComplete='current-password' secureTextEntry={show}/>
+                <TextInput style={style.textInput} placeholder='Password' autoComplete='current-password' secureTextEntry={show} />
                 <TouchableOpacity onPress={() => setShow(!show)}>
                     {
                         show ?
-                        <MaterialCommunityIcons name="eye-off" size={24} style={{ marginLeft: -30, marginBottom: 9 }} />
-                        :
-                        <MaterialCommunityIcons name="eye" size={24} style={{ marginLeft: -30, marginBottom: 9 }} />
+                            <MaterialCommunityIcons name="eye-off" size={24} style={{ marginLeft: -30, marginBottom: 9 }} />
+                            :
+                            <MaterialCommunityIcons name="eye" size={24} style={{ marginLeft: -30, marginBottom: 9 }} />
                     }
                 </TouchableOpacity>
             </View>
