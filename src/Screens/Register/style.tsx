@@ -48,19 +48,19 @@ export const style = StyleSheet.create({
     title: {
         fontSize: 24,
         color: 'white',
-        fontWeight: 'bold',
+        fontWeight: '700',
         margin: 10,
     },
     pText: {
         margin: 10,
-        color: 'grey',
+        color: '#F6F6F6',
         fontSize: 12,
-        fontWeight: "bold",
+        fontWeight: "700",
     },
     personText: {
         margin: 10,
         color: 'white',
         fontSize: 12,
-        fontWeight: "bold",
+        fontWeight: "700",
     }
 })
