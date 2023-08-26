@@ -33,7 +33,7 @@ export default function Login() {
                 </Text>
             </Pressable>
 
-            <Pressable style={style.buttonLogin} onPress={() => alert("Login")}>
+            <Pressable style={style.buttonLogin} onPress={() => navigation.navigate("MainScreen" as never)}>
                 <Text>
                     Login
                 </Text>
