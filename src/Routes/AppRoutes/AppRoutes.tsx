@@ -1,11 +1,17 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+
+const Stack = createNativeStackNavigator();
+
+import MainScreen from '../../Screens/MainScreen';
+
 const AppRoutes = () => {
     return (
-        <View>
-            <Text>AppRoutes</Text>
-        </View>
+        <Stack.Navigator screenOptions={{headerShown: false}}>
+            <Stack.Screen name="MainScreen" component={MainScreen}/>
+        </Stack.Navigator>
     )
 }
 
