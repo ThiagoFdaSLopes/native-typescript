@@ -12,7 +12,7 @@ export const style = StyleSheet.create({
         width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
-        flexDirection: 'column',
+        flexDirection: 'row',
     },
     contentPassword: {
         width: '100%',
@@ -27,14 +27,15 @@ export const style = StyleSheet.create({
         backgroundColor: 'white'
     },
     textInput: {
-        width: '70%',
-        height: 40,
+        width: '80%',
+        height: 35,
         borderColor: 'black',
         borderRadius: 3,
         color: 'black',
         backgroundColor:"white",
         padding: 10,
         marginBottom: 10,
+        fontSize: 14
     },
     buttonLogin: {
         width: '70%',
