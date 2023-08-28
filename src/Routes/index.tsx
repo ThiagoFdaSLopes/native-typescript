@@ -6,7 +6,7 @@ import AuthRoutes from './AuthRoutes/AuthRoutes';
 import AppRoutes from './AppRoutes/AppRoutes';
 
 export default function Routes() {
-    const user = true;
+    const user = false;
     return (
         <NavigationContainer>
             {
