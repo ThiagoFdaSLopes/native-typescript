@@ -13,6 +13,7 @@ export default function Login() {
             <Image source={require('../../Images/logo.png')} style={style.image} />
 
             <View style={style.content}>
+                <MaterialCommunityIcons name='email' size={24} style={{ position: 'absolute', left: 30 }}/>
                 <TextInput style={style.textInput} placeholder='Email' autoComplete='email' />
             </View>
             <View style={style.contentPassword}>
